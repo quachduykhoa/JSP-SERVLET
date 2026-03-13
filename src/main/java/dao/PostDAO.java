@@ -35,4 +35,44 @@ public class PostDAO {
             return false;
         }
     }
+
+    public List<Post> getFeedPosts(int userId) {
+        List<Post> posts = new ArrayList<>();
+        String sql =
+                "SELECT * FROM posts " +
+                "WHERE " +
+                // Bài viết của chính mình: thấy cả draft lẫn published
+                "      user_id = ? " +
+                "   OR ( " +
+                // Bài viết của người mình follow: chỉ thấy bài đã publish
+                "        status = 'published' " +
+                "        AND user_id IN ( " +
+                "            SELECT followed_user_id FROM follows WHERE following_user_id = ? " +
+                "        ) " +
+                "      ) " +
+                "ORDER BY created_at DESC";
+
+        try (Connection conn = Database.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+            stmt.setInt(1, userId);
+            stmt.setInt(2, userId);
+
+            try (ResultSet rs = stmt.executeQuery()) {
+                while (rs.next()) {
+                    posts.add(new Post(
+                            rs.getInt("id"),
+                            rs.getString("title"),
+                            rs.getString("body"),
+                            rs.getInt("user_id"),
+                            rs.getString("status"),
+                            rs.getTimestamp("created_at")
+                    ));
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return posts;
+    }
 }

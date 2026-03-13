@@ -4,26 +4,36 @@
 <html>
 <head>
     <title>Danh Sách Người Dùng</title>
-    <style>
-        body { font-family: Arial; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .user { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
-        button { padding: 10px 20px; background: #28a745; color: white; border: none; }
-    </style>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/style/users.css">
 </head>
 <body>
-    <h2>Danh Sách Người Dùng</h2>
-    <a href="posts">Quay lại</a>
-    
-    <c:forEach items="${users}" var="u">
-        <div class="user">
-            <h4>${u.username} (${u.role})</h4>
-            <c:if test="${u.id != user.id}">
-                <form action="follow" method="post">
-                    <input type="hidden" name="userId" value="${u.id}">
-                    <button type="submit">Follow</button>
-                </form>
-            </c:if>
-        </div>
-    </c:forEach>
+    <div class="page-wrapper">
+        <h2>Danh sách người dùng</h2>
+
+        <c:forEach items="${users}" var="u">
+            <div class="user">
+                <div>
+                    <h4>${u.username}</h4>
+                    <span>Vai trò: ${u.role}</span>
+                </div>
+
+                <c:if test="${u.id != user.id}">
+                    <c:choose>
+                        <c:when test="${followingIds != null && followingIds.contains(u.id)}">
+                            <span>Đã follow</span>
+                        </c:when>
+                        <c:otherwise>
+                            <form action="follow" method="post">
+                                <input type="hidden" name="userId" value="${u.id}">
+                                <button type="submit">Follow</button>
+                            </form>
+                        </c:otherwise>
+                    </c:choose>
+                </c:if>
+            </div>
+        </c:forEach>
+
+        <a href="posts">← Quay lại trang bài viết</a>
+    </div>
 </body>
 </html>
