@@ -5,7 +5,7 @@ public class Database {
     private static final String SERVER_URL = "jdbc:mysql://localhost:3306/?useSSL=false&allowPublicKeyRetrieval=true";
     private static final String DB_NAME = "employees";
     private static final String USER = "root";
-    private static final String PASSWORD = "123456";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() throws SQLException {
         try {
