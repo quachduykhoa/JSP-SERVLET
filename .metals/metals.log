@@ -1,0 +1,1012 @@
+2026.04.02 23:29:12 INFO  Started: Metals version 1.6.6 in folders 'E:\OOSD\test\JSP-SERVLET' for client Visual Studio Code 1.113.0.
+2026.04.02 23:29:12 INFO  Memory monitor started
+2026.04.02 23:29:14 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.02 23:29:14 WARN  no build tool detected in workspace 'E:\OOSD\test\JSP-SERVLET'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.02 23:29:14 WARN  Build server is not auto-connectable.
+2026.04.02 23:29:14 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:29:14 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java
+2026.04.02 23:29:14 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java
+2026.04.02 23:29:16 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java
+2026.04.02 23:29:19 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:29:23 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:29:35 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:29:38 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:29:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:29:43 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:29:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:30:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:30:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/LoginServlet.java]
+2026.04.02 23:30:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:30:41 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:30:41 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/FollowServlet.java]
+2026.04.02 23:30:41 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:32:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:32:09 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java. Using fallback presentation compiler.
+2026.04.02 23:32:14 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java. Using fallback presentation compiler.
+2026.04.02 23:32:16 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java. Using fallback presentation compiler.
+2026.04.02 23:32:19 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:32:23 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:32:35 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:32:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:32:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:32:43 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:32:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:42:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:42:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:42:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:42:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:42:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:53 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/FollowServlet.java]
+2026.04.02 23:42:53 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:53 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:42:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:42:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:54 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:42:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:42:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:55 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:42:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:42:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:42:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:58 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/FollowServlet.java]
+2026.04.02 23:42:58 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#follow# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-58-993.md")
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:42:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:42:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:42:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:42:59 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.02 23:42:59 INFO  empty definition using pc, found symbol in pc: model/Post# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-00-002.md")
+2026.04.02 23:43:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:00 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:43:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:00 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/config/DatabaseInitializer.java]
+2026.04.02 23:43:00 INFO  empty definition using pc, found symbol in pc: model/Database# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-00-859.md")
+2026.04.02 23:43:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 INFO  empty definition using pc, found symbol in pc: model/Database# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-00-859.md")
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/config/DatabaseInitializer.java]
+2026.04.02 23:43:02 INFO  empty definition using pc, found symbol in pc: java/sql/Connection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-02-514.md")
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:02 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:43:03 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:43:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:43:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:03 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.02 23:43:03 INFO  empty definition using pc, found symbol in pc: _empty_/UserDAO#getAllUsers# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-03-452.md")
+2026.04.02 23:43:03 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:43:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:03 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:43:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:06 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:43:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:06 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:43:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:06 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:43:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:10 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:43:10 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:10 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:10 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:43:10 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:10 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:10 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:43:10 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:43:10 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:43:12 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:12 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:43:13 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:13 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:43:13 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:13 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:43:12 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:43:15 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:15 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:15 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:15 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:15 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:15 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:15 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:15 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:15 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:15 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:17 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:17 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:17 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:17 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:17 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:17 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:17 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:17 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:43:17 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:26 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:43:26 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:26 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:43:27 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:43:27 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:27 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:43:26 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:43:27 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:43:27 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:57:06 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java
+2026.04.02 23:57:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:08 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+thg 4 02, 2026 11:57:08 CH org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+2026.04.02 23:57:08 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:09 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:44 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:45 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:57:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:57:45 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:47 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:47 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:49 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:51 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java
+2026.04.02 23:57:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java. Using fallback presentation compiler.
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:53 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:57:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:57:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  empty definition using pc, found symbol in pc: model/Post# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-00-002.md")
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:57:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:57:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#follow# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-58-993.md")
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:57:59 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:00 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/config/DatabaseInitializer.java]
+2026.04.02 23:58:01 INFO  empty definition using pc, found symbol in pc: _empty_/Database#getConnection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-01-818.md")
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 INFO  empty definition using pc, found symbol in pc: java/sql/Connection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-02-514.md")
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:02 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:58:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:06 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:07 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:07 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:58:07 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:06 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:34 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:34 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:34 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:34 INFO  empty definition using pc, found symbol in pc: java/sql/Connection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-02-514.md")
+2026.04.02 23:58:34 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:34 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java
+2026.04.02 23:58:35 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java. Using fallback presentation compiler.
+2026.04.02 23:58:34 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:35 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/model/Database.java]
+2026.04.02 23:58:35 INFO  empty definition using pc, found symbol in pc: java/lang/Class# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-35-113.md")
+2026.04.02 23:58:34 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java. Using fallback presentation compiler.
+2026.04.02 23:58:35 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:36 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:36 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:36 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java
+2026.04.02 23:58:36 INFO  empty definition using pc, found symbol in pc: java/sql/Connection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-02-514.md")
+2026.04.02 23:58:36 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:36 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:36 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:36 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java. Using fallback presentation compiler.
+2026.04.02 23:58:37 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:37 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:37 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:37 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:38 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:58:38 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 INFO  empty definition using pc, found symbol in pc: model/Database# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-00-859.md")
+2026.04.02 23:58:39 INFO  empty definition using pc, found symbol in pc: java/sql/Connection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-02-514.md")
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:39 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Database.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java
+2026.04.02 23:58:40 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  empty definition using pc, found symbol in pc: model/Post# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-00-002.md")
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java
+2026.04.02 23:58:40 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:41 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:41 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:40 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\Post.java. Using fallback presentation compiler.
+2026.04.02 23:58:42 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:42 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:43 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:58:43 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:43 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:44 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:44 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:44 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:44 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:44 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:58:44 INFO  empty definition using pc, found symbol in pc: _empty_/UserDAO#getAllUsers# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-03-452.md")
+2026.04.02 23:58:44 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:44 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:58:45 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.02 23:58:45 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#createPost# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-45-952.md")
+2026.04.02 23:58:45 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.02 23:58:45 INFO  empty definition using pc, found symbol in pc: _empty_/PostDAO#getFeedPosts# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-45-952.md")
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:58:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:45 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:58:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:46 INFO  empty definition using pc, found symbol in pc: java/sql/Connection# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-43-02-514.md")
+2026.04.02 23:58:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:58:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:47 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.02 23:58:47 INFO  empty definition using pc, found symbol in pc: _empty_/FollowDAO#getFollowingList# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-47-746.md")
+2026.04.02 23:58:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:58:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/FollowServlet.java]
+2026.04.02 23:58:49 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-49-858.md")
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/LoginServlet.java]
+2026.04.02 23:58:49 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-070.md")
+2026.04.02 23:58:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.02 23:58:50 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-325.md")
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/UsersServlet.java]
+2026.04.02 23:58:50 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-564.md")
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:50 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:53 INFO  empty definition using pc, found symbol in pc: dao/PostDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:58:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java
+2026.04.02 23:58:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\PostDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:55 INFO  empty definition using pc, found symbol in pc: dao/FollowDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-42-023.md")
+2026.04.02 23:58:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java
+2026.04.02 23:58:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\FollowDAO.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#follow# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-58-993.md")
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:58:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\config\DatabaseInitializer.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.02 23:59:03 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.02 23:59:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.02 23:59:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.02 23:59:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:18 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:18 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:18 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:31 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:31 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:46 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:46 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:46 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.03 00:01:46 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/FollowServlet.java]
+2026.04.03 00:01:46 INFO  empty definition using pc, found symbol in pc: _empty_/WebServlet# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-47-729.md")
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:46 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/LoginServlet.java]
+2026.04.03 00:01:47 INFO  empty definition using pc, found symbol in pc: _empty_/WebServlet# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-47-865.md")
+2026.04.03 00:01:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:48 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/UsersServlet.java]
+2026.04.03 00:01:48 INFO  empty definition using pc, found symbol in pc: _empty_/WebServlet# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-48-735.md")
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:47 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:48 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:49 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:48 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:49 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java
+2026.04.03 00:01:50 INFO  empty definition using pc, found symbol in pc: _empty_/`<any>`#login# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\model\User.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.03 00:01:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:50 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:50 INFO  empty definition using pc, found symbol in pc: model/User# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-42-53-110.md")
+2026.04.03 00:01:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:51 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:52 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:51 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:53 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:54 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:55 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:56 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/LoginServlet.java]
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletRequest#getRequestDispatcher#forward# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-57-334.md")
+2026.04.03 00:01:56 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/PostServlet.java]
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletRequest#getRequestDispatcher#forward# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-57-661.md")
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletRequest#getRequestDispatcher#forward# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-57-334.md")
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-49-858.md")
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-070.md")
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:01:58 INFO  Created report: Optional[file:///E:/OOSD/test/JSP-SERVLET/src/main/java/controller/UsersServlet.java]
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletRequest#getRequestDispatcher#forward# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-58-138.md")
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-325.md")
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletRequest#getRequestDispatcher#forward# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-57-661.md")
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-49-858.md")
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletRequest#getRequestDispatcher#forward# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-03\r_empty-definition_00-01-58-138.md")
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-564.md")
+2026.04.03 00:01:57 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-070.md")
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:57 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-325.md")
+2026.04.03 00:01:57 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java
+2026.04.03 00:01:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\dao\UserDAO.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  empty definition using pc, found symbol in pc: _empty_/HttpServletResponse#sendRedirect# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-58-50-564.md")
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:01:58 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\UsersServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:01 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:02:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:01 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:02 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:02:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:02 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:02 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:02:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\PostServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:02:03 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:03 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+2026.04.03 00:02:04 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:02:05 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:05 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:05 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:05 WARN  no build target for: E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java
+2026.04.03 00:02:05 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\FollowServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:05 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:05 INFO  no build target found for E:\OOSD\test\JSP-SERVLET\src\main\java\controller\LoginServlet.java. Using fallback presentation compiler.
+2026.04.03 00:02:05 INFO  empty definition using pc, found symbol in pc: dao/UserDAO# (full report at: "E:\OOSD\test\JSP-SERVLET\.metals\.reports\metals-full\2026-04-02\r_empty-definition_23-30-41-833.md")
+thg 4 03, 2026 12:04:54 SA org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+thg 4 03, 2026 12:04:57 SA org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+thg 4 03, 2026 12:04:58 SA org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.03 00:30:49 INFO  Shutting down server
+2026.04.03 00:30:49 INFO  Memory monitor stopped
+2026.04.03 00:30:49 INFO  shutting down Metals
+2026.04.03 00:30:49 INFO  Exiting server

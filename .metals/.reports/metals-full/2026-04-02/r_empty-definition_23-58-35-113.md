@@ -1,3 +1,14 @@
+error id: file:///E:/OOSD/test/JSP-SERVLET/src/main/java/model/Database.java:java/lang/Class#
+file:///E:/OOSD/test/JSP-SERVLET/src/main/java/model/Database.java
+empty definition using pc, found symbol in pc: java/lang/Class#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 438
+uri: file:///E:/OOSD/test/JSP-SERVLET/src/main/java/model/Database.java
+text:
+```scala
 package model;
 import java.sql.*;
 
@@ -9,7 +20,7 @@ public class Database {
 
     public static Connection getConnection() throws SQLException {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            @@Class.forName("com.mysql.cj.jdbc.Driver");
            
             try (Connection serverConn = DriverManager.getConnection(SERVER_URL, USER, PASSWORD);
                  Statement st = serverConn.createStatement()) {
@@ -25,3 +36,9 @@ public class Database {
         }
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/lang/Class#
