@@ -36,14 +36,10 @@ public class PostServlet extends HttpServlet {
         // Lấy session
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
-
-        // Nếu chưa login → redirect
         if (user == null) {
             response.sendRedirect("login");
             return;
         }
-
-        // 👉 FIX QUAN TRỌNG: truyền user sang JSP
         request.setAttribute("user", user);
 
         int userId = user.getId();
@@ -68,8 +64,6 @@ public class PostServlet extends HttpServlet {
         }
 
         request.setAttribute("suggestedUsers", suggestedUsers);
-
-        // ===== Forward sang JSP =====
         request.getRequestDispatcher("/WEB-INF/views/posts.jsp")
                .forward(request, response);
     }
@@ -84,7 +78,6 @@ public class PostServlet extends HttpServlet {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
 
-        // Nếu chưa login
         if (user == null) {
             response.sendRedirect("login");
             return;
@@ -94,7 +87,6 @@ public class PostServlet extends HttpServlet {
         String body = request.getParameter("body");
         String status = request.getParameter("status");
 
-        // Validate đơn giản
         if (title != null && !title.trim().isEmpty()) {
             if (status == null) {
                 status = "draft"; // mặc định nếu không tick
@@ -102,7 +94,6 @@ public class PostServlet extends HttpServlet {
             postDAO.createPost(user.getId(), title, body, status);
         }
 
-        // Redirect tránh resubmit form
         response.sendRedirect("posts");
     }
 

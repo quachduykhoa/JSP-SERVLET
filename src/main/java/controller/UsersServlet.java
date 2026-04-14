@@ -20,7 +20,6 @@ public class UsersServlet extends HttpServlet {
         HttpSession session = request.getSession();
         User currentUser = (User) session.getAttribute("user");
 
-        // Nếu chưa đăng nhập
         if (currentUser == null) {
             response.sendRedirect("login");
             return;
