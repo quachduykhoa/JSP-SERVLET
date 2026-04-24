@@ -169,11 +169,14 @@
               } else {
                   for(User u : suggestedUsers){
           %>
-              <form action="follow" method="post">
-                  <span><%= u.getUsername() %></span>
-                  <input type="hidden" name="userId" value="<%= u.getId() %>" />
-                  <button type="submit">Follow</button>
-              </form>
+              <form action="follow" method="post" class="suggest-item">
+			    <span class="suggest-username"><%= u.getUsername() %></span>
+			    <input type="hidden" name="userId" value="<%= u.getId() %>" />
+			    
+			    <button type="submit" class="follow-btn">
+			        <i class="fas fa-user-plus"></i> Follow
+			    </button>
+			</form>
           <%
                   }
               }
