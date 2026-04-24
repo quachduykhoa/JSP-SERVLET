@@ -1,7 +1,7 @@
-## 1. Tạo Database nếu chưa tồn tại
+-- 1. Tạo Database nếu chưa tồn tại
 USE employees;
 
-## 2. Tạo bảng users (thêm IF NOT EXISTS để tránh lỗi khi khởi động lại server)
+-- 2. Tạo bảng users (thêm IF NOT EXISTS để tránh lỗi khi khởi động lại server)
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) UNIQUE, -- Thêm UNIQUE để tránh trùng lặp username
