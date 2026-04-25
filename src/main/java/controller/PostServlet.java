@@ -56,7 +56,7 @@ public class PostServlet extends HttpServlet {
         // ===== GET POSTS =====
         List<Post> posts = postDAO.getFeedPosts(userId, offset, limit);
 
-        // ===== TOTAL POSTS (for pagination) =====
+        // ===== TỔNG SỐ BÀI VIẾT (để phân trang) =====
         int totalPosts = postDAO.countFeedPosts(userId);
         int totalPages = (int) Math.ceil((double) totalPosts / limit);
 
@@ -66,7 +66,7 @@ public class PostServlet extends HttpServlet {
         request.setAttribute("currentPage", page);
         request.setAttribute("totalPages", totalPages);
 
-        // ===== SUGGESTED USERS =====
+        // ===== NGƯỜI DÙNG ĐƯỢC ĐỀ XUẤT =====
         List<User> allUsers = userDAO.getAllUsers();
         List<Integer> followingIds = followDAO.getFollowingList(userId);
         List<User> suggestedUsers = new ArrayList<>();
