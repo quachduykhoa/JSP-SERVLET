@@ -1,5 +1,6 @@
 📋 HƯỚNG DẪN CHẠY DỰ ÁN JSP-SERVLET
-Bước 1: Downloand tomcat9 trước
+
+Bước 1: Downloand tomcat9 trước https://tomcat.apache.org/download-90.cgi
 
 Bước 2: Clone project từ kho lưu trữ về máy cục bộ.
 
