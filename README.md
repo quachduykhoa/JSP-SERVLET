@@ -1,12 +1,13 @@
 📋 HƯỚNG DẪN CHẠY DỰ ÁN JSP-SERVLET
+Bước 1: Downloand tomcat9 trước
 
-Bước 1: Clone project từ kho lưu trữ về máy cục bộ.
+Bước 2: Clone project từ kho lưu trữ về máy cục bộ.
 
-Bước 2: Nhấn vào tab Servers ở khu vực phía dưới (nằm cùng thanh ngang với tab Console/Problems).
+Bước 3: Nhấn vào tab Servers ở khu vực phía dưới (nằm cùng thanh ngang với tab Console/Problems).
 
-Bước 3: Click vào dòng chữ màu xanh: "No servers are available. Click this link to create a new server..."
+Bước 4: Click vào dòng chữ màu xanh: "No servers are available. Click this link to create a new server..."
 
-Bước 4: Chọn thư mục Apache -> Chọn phiên bản Tomcat v9.0 -> Nhấn Finish.
+Bước 5: Chọn thư mục Apache -> Chọn phiên bản Tomcat v9.0 -> Nhấn Finish.
 
 ```sql
 -- 1. Tạo Database nếu chưa tồn tại
