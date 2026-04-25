@@ -1,4 +1,4 @@
-📋 HƯỚNG DẪN CHẠY DỰ ÁN JSP-SERVLET
+# 📋 HƯỚNG DẪN CHẠY DỰ ÁN JSP-SERVLET
 
 Bước 1: Downloand tomcat9 trước https://tomcat.apache.org/download-90.cgi
 
@@ -10,6 +10,7 @@ Bước 4: Click vào dòng chữ màu xanh: "No servers are available. Click th
 
 Bước 5: Chọn thư mục Apache -> Chọn phiên bản Tomcat v9.0 -> Nhấn Finish.
 
+```
 -- =========================
 -- 1. DATABASE
 -- =========================
@@ -99,5 +100,4 @@ INSERT IGNORE INTO comments(id, post_id, user_id, content) VALUES
 INSERT IGNORE INTO likes(user_id, post_id) VALUES
 (2, 2),
 (3, 2);
-
-
+```
