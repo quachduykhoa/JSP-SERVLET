@@ -17,4 +17,3 @@ if (toggle) {
     toggle.addEventListener('change', updateToggleText);
     updateToggleText();
 }
-

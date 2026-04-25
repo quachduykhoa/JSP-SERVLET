@@ -20,7 +20,6 @@ public class PostServlet extends HttpServlet {
     private UserDAO userDAO;
     private FollowDAO followDAO;
 
-    // Khởi tạo
     @Override
     public void init() throws ServletException {
         postDAO = new PostDAO();
@@ -28,55 +27,72 @@ public class PostServlet extends HttpServlet {
         followDAO = new FollowDAO();
     }
 
-    // ===================== GET =====================
+    // ===================== GET FEED =====================
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // Lấy session
-        HttpSession session = request.getSession();
-        User user = (User) session.getAttribute("user");
+        HttpSession session = request.getSession(false);
+        User user = (session != null) ? (User) session.getAttribute("user") : null;
+
         if (user == null) {
             response.sendRedirect("login");
             return;
         }
-        request.setAttribute("user", user);
 
         int userId = user.getId();
 
-        // ===== Lấy danh sách bài viết =====
-        List<Post> posts = postDAO.getFeedPosts(userId);
-        request.setAttribute("posts", posts);
+        // ===== Pagination =====
+        int page = 1;
+        int limit = 5;
 
-        // ===== Gợi ý follow =====
+        String pageParam = request.getParameter("page");
+        if (pageParam != null && pageParam.matches("\\d+")) {
+            page = Integer.parseInt(pageParam);
+        }
+
+        int offset = (page - 1) * limit;
+
+        // ===== GET POSTS =====
+        List<Post> posts = postDAO.getFeedPosts(userId, offset, limit);
+
+        // ===== TOTAL POSTS (for pagination) =====
+        int totalPosts = postDAO.countFeedPosts(userId);
+        int totalPages = (int) Math.ceil((double) totalPosts / limit);
+
+        // ===== SET ATTRIBUTES =====
+        request.setAttribute("posts", posts);
+        request.setAttribute("user", user);
+        request.setAttribute("currentPage", page);
+        request.setAttribute("totalPages", totalPages);
+
+        // ===== SUGGESTED USERS =====
         List<User> allUsers = userDAO.getAllUsers();
         List<Integer> followingIds = followDAO.getFollowingList(userId);
-
         List<User> suggestedUsers = new ArrayList<>();
 
-        if (allUsers != null) {
-            for (User u : allUsers) {
-                if (u.getId() != userId &&
-                    (followingIds == null || !followingIds.contains(u.getId()))) {
-                    suggestedUsers.add(u);
-                }
+        for (User u : allUsers) {
+            if (u.getId() != userId &&
+                (followingIds == null || !followingIds.contains(u.getId()))) {
+                suggestedUsers.add(u);
             }
         }
 
         request.setAttribute("suggestedUsers", suggestedUsers);
+
         request.getRequestDispatcher("/WEB-INF/views/posts.jsp")
                .forward(request, response);
     }
 
-    // ===================== POST =====================
+    // ===================== CREATE POST =====================
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         System.out.println("doPost() được gọi");
 
-        HttpSession session = request.getSession();
-        User user = (User) session.getAttribute("user");
+        HttpSession session = request.getSession(false);
+        User user = (session != null) ? (User) session.getAttribute("user") : null;
 
         if (user == null) {
             response.sendRedirect("login");
@@ -87,19 +103,14 @@ public class PostServlet extends HttpServlet {
         String body = request.getParameter("body");
         String status = request.getParameter("status");
 
+        if (status == null) {
+            status = "draft";
+        }
+
         if (title != null && !title.trim().isEmpty()) {
-            if (status == null) {
-                status = "draft"; // mặc định nếu không tick
-            }
             postDAO.createPost(user.getId(), title, body, status);
         }
 
         response.sendRedirect("posts");
-    }
-
-    // Hủy
-    @Override
-    public void destroy() {
-        // cleanup nếu cần
     }
 }
