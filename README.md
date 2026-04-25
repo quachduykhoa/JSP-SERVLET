@@ -1,8 +1,11 @@
--- Hướng dẫn run JSP-SERVLET
--- Bước 1: clone về
--- Bước 2: Nhấn vào tab server ở dưới phần View (chỗ thanh ngang với console)
--- Bước 3: Nhấn vào "No servers are available. Click this link to create a new server..." 
--- Bước 4: Nhấn Apache chọn tomcat 9 
+📋 HƯỚNG DẪN CHẠY DỰ ÁN JSP-SERVLET
+Bước 1: Clone project từ kho lưu trữ về máy cục bộ.
+
+Bước 2: Nhấn vào tab Servers ở khu vực phía dưới (nằm cùng thanh ngang với tab Console/Problems).
+
+Bước 3: Click vào dòng chữ màu xanh: "No servers are available. Click this link to create a new server..."
+
+Bước 4: Chọn thư mục Apache -> Chọn phiên bản Tomcat v9.0 -> Nhấn Finish.
 
 ```sql
 -- 1. Tạo Database nếu chưa tồn tại
